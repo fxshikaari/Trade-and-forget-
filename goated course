@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade and Forget Lab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1e90ff;
+            font-size: 3em;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff4500;
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 40px;
+            background-color: #111;
+        }
+
+        section h2 {
+            color: #1e90ff;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .cta-button {
+            background-color: #ff4500;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2em;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trade and Forget Lab</h1>
+        <nav>
+            <a href="#why">Why Trade and Forget?</a>
+            <a href="#what">What You’ll Learn</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="why">
+        <h2>Why Trade and Forget?</h2>
+        <p>
+            At "Trade and Forget Lab," we focus on teaching a no-nonsense trading strategy that lets you set your trades and forget about them. No need to sit in front of your screen all day—we’ll show you how to spot the right opportunities, place your trades, and let the market do its thing. Our approach is simple, effective, and built for those who want to grow their profits without the stress of constant monitoring. Whether you're new to trading or have some experience, our method will help you trade smarter, not harder.
+        </p>
+        <a href="#what" class="cta-button">Discover More</a>
+    </section>
+
+    <section id="what">
+        <h2>What You’ll Learn</h2>
+        <p>
+            Our course is designed to make trading accessible and profitable for everyone. Here's what you’ll learn:
+        </p>
+        <ul>
+            <li>Master the "Trade and Forget" approach: Learn to set up your trades and let them run while the market works for you.</li>
+            <li>Utilize Areas of Interest (AOIs): Identify key levels where price action is likely to occur for better trade entries.</li>
+            <li>Analyze Trends: Understand how to spot and follow market trends to enhance your trading decisions.</li>
+            <li>Use Entry Signals: Learn to recognize and act on signals that indicate high-probability trade opportunities.</li>
+            <li>Implement Risk Management: Protect your capital with effective risk management strategies and a 1:5 Risk-Reward Ratio.</li>
+        </ul>
+        <p>
+            We make sure you have a system that works for you, regardless of your level of experience. It's all about making consistent profits with minimal effort, so you can focus on living your life while your money works for you.
+        </p>
+        <a href="#contact" class="cta-button">Join the Lab Now!</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            Have questions? Want to learn more? Reach out to us at:
+        </p>
+        <p>
+            <strong>Email:</strong> support@tradeandforgetlab.com <br>
+            <strong>Phone:</strong> +123 456 7890
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2024 Trade and Forget Lab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
